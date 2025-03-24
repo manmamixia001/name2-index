@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 2秒後にリンク移動
           setTimeout(() => {
-            window.location.href = "https://name2-index.netlify.app/";
+            window.location.href = "https://lndex-2.netlify.app/";
           }, 1000);
         });
       });
