@@ -2,11 +2,11 @@
 // ページが読み込まれてから3秒後にクラスを追加
 setTimeout(function () {
     $('.none').show();
-}, 3000); // 3000ミリ秒（3秒）
+}, 3700); // 3000ミリ秒（3秒）
 
 setTimeout(function () {
     $('.header').css('transform','translateY(0)')
-}, 3000);
+}, 4000);
 
 setTimeout(function () {
     const elements = document.querySelectorAll('.my-img-before');
@@ -14,7 +14,7 @@ setTimeout(function () {
         element.classList.remove('my-img-before');
         element.classList.add('my-img-after');
     });
-}, 3000)
+}, 3500)
 
 
 
